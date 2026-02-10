@@ -1,4 +1,4 @@
-import { healthService } from './health.service';
+import { healthService } from './health.service.js';
 
 export const healthController = {
     check: async (req, res) => {
